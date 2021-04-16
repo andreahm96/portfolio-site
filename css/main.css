@@ -232,6 +232,36 @@ textarea {
 
 /******************* ADDITIONAL **********************/
 
+.additional{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.additional-title-wrapper{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.additional-title-wrapper {
+  width: 60%;
+}
+.additional-title-wrapper h5{
+  width:115px;
+}
+.additional-title-picture{
+  width: 40%;
+}
+.additional-title-picture img{
+  width: 100%;
+}
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
