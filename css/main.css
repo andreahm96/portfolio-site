@@ -159,7 +159,22 @@ textarea {
       text-align: center;
     }
 /********************** HERO *************************/
-  
+.hero-area{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-area .content-wrapper{
+  width:55%;
+  display: flex;
+  padding-left: 25px;
+  height: 300px;
+}
 
 /********************* WELCOME ***********************/
 
