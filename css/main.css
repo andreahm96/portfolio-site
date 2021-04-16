@@ -93,7 +93,7 @@ textarea {
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
-      width:85%;
+      width:80%;
      }
   h1{
 
@@ -233,12 +233,13 @@ textarea {
 
 /******************* ADDITIONAL **********************/
 
-.additional{
+.additional-title{
   width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #36402e;
 }
 .additional-title-wrapper{
   width:100%;
@@ -260,6 +261,36 @@ textarea {
   width: 100%;
 }
 
+.additional-content{
+  background-color: #9b7138;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.additional-description{
+  width:90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+article{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+figure{
+  margin: 0;
+  padding-right: 20px;
+}
+article p{
+  width:70%;
+}
 
 
 
