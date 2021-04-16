@@ -208,7 +208,27 @@ textarea {
 }
 
 /********************* SKILLS ************************/
-
+.skills{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.skills .content-wrapper{
+  width:30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.skills article{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 /******************* ADDITIONAL **********************/
 
