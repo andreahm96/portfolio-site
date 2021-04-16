@@ -177,7 +177,20 @@ textarea {
 }
 
 /********************* WELCOME ***********************/
+.welcome{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.welcome .content-wrapper{
+  width:290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 /********************* ABOUT *************************/
 
