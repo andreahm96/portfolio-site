@@ -87,6 +87,7 @@ textarea {
      color: #222;
      font-size: 1em;
      line-height: 1.4;
+     background-color: #f7f7f2;
    }
    .content-wrapper{
       display: flex;
@@ -118,6 +119,7 @@ textarea {
        align-items: center;
        flex-flow: row wrap;
        width:100%;
+       background-color: #2c281c;
      }
  header nav{
      display: flex;
@@ -182,6 +184,7 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #36402e;
 }
 
 .welcome .content-wrapper{
@@ -199,6 +202,9 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-image: url('../img/about.jpg');
+  background-position: center;
+  background-size: cover;
 }
 .about h3,h4{
   width: 100%;
