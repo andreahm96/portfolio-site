@@ -216,7 +216,7 @@ textarea {
   flex-flow: row wrap;
 }
 .skills .content-wrapper{
-  width:30%;
+  width:45%;
   display: flex;
   justify-content: center;
   align-items: center;
