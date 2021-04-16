@@ -193,7 +193,19 @@ textarea {
 }
 
 /********************* ABOUT *************************/
-
+.about{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.about h3,h4{
+  width: 100%;
+}
+.about-content p{
+  width: 90%;
+}
 
 /********************* SKILLS ************************/
 
