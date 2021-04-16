@@ -11,12 +11,6 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -86,6 +80,97 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+/********************* GENERAL STYLES **********************/
+   html {
+     color: #222;
+     font-size: 1em;
+     line-height: 1.4;
+   }
+   .content-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      width:90%;
+     }
+  h1{
+
+  }
+  h2{
+
+  }
+  h3{
+
+  }
+  h4{
+
+  }
+  address{
+
+  }
+
+/********************* HEADER/FOOTER *********************/
+ header,footer{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-flow: row wrap;
+       width:100%;
+     }
+ header nav{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 80%;
+   }
+  header nav ul{
+     list-style-type: none;
+     display: inline-flex;
+     padding-inline-start:0px;
+     justify-content: space-around;
+     align-items: center;
+     width:50%;
+   }
+
+  footer .content-wrapper{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     width:75%;
+    }
+  footer .contact,.socials{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      width:100%;
+      padding-bottom: 30px;
+    }
+  footer h4,address{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      width:100%;
+      text-align: center;
+    }
+/********************** HERO *************************/
+  
+
+/********************* WELCOME ***********************/
+
+
+/********************* ABOUT *************************/
+
+
+/********************* SKILLS ************************/
+
+
+/******************* ADDITIONAL **********************/
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +345,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
