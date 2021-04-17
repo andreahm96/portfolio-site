@@ -85,6 +85,7 @@ textarea {
 /********************* GENERAL STYLES **********************/
    html {
      color: #222;
+     font-family:'Montserrat', sans-serif;
      font-size: 1em;
      line-height: 1.4;
      background-color: #f7f7f2;
