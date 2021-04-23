@@ -127,7 +127,8 @@ textarea {
     margin-block-end: .25em;
   }
   h5{
-
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
   }
   p{
     font-size: 12px;
@@ -352,13 +353,14 @@ input[type=button] {
   flex-flow: row wrap;
 }
 .additional-title-wrapper {
-  width: 60%;
+  width: 55%;
 }
 .additional-title-wrapper h5{
-  width:115px;
+  width:120px;
+  margin-left: 25px;
 }
 .additional-title-picture{
-  width: 40%;
+  width: 45%;
 }
 .additional-title-picture img{
   width: 100%;
