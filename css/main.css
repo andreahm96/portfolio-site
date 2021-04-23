@@ -173,7 +173,7 @@ textarea {
      padding-inline-start:0px;
      justify-content: space-around;
      align-items: center;
-     width:50%;
+     width:60%;
    }
 
   footer .content-wrapper{
@@ -365,7 +365,9 @@ input[type=button] {
 .additional-title-picture img{
   width: 100%;
 }
-
+.content-wrapper h4{
+  padding-left: 10px;
+}
 .additional-content{
   background-color: #9b7138;
   color: #ffffff;
@@ -374,7 +376,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 50px 0px;
 }
 
 .additional-description{
@@ -383,8 +385,8 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  padding-top: 30px;
 }
-
 article{
   width: 100%;
   display: flex;
