@@ -321,6 +321,16 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   text-align: center;
+  padding: 25px 0;
+}
+.skills img{
+  width:75%;
+  height:75%;
+}
+.skills figure{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 /******************* ADDITIONAL **********************/
