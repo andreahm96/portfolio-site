@@ -266,13 +266,36 @@ textarea {
   background-position: center;
   background-size: cover;
   color: #ffffff;
-  padding:30px 0 30px 0;
+  padding:30px 0 35px 0;
 }
 .about h3,h4{
   width: 100%;
 }
-.about-content p{
-  width: 90%;
+#about-content p{
+  width: 95%;
+}
+.about-bottom{
+  width:100%;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row;
+}
+.about-bottom h4{
+  width:45%;
+}
+input[type=button] {
+  width:100%;
+  border-radius: 35px;
+  padding: 20px 20px;
+  margin-top: 20px;
+  background-color: #fdfdfa;
+  font-family:'Montserrat', sans-serif;
+  font-weight:bold;
+  font-size: 14px;
+  color: #363027;
+  border: none;
+  text-align: center;
 }
 
 /********************* SKILLS ************************/
