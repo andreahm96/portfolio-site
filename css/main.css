@@ -182,7 +182,7 @@ textarea {
      flex-flow: row wrap;
      width:75%;
     }
-  footer .contact,.socials{
+  footer #contact, #socials{
       display: flex;
       justify-content: center;
       align-items: center;
