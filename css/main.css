@@ -105,7 +105,7 @@ textarea {
     font-weight: 400;
     margin-block-start: .25em;
     margin-block-end: .25em;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   h2{
     font-family: 'Cormorant Garamond', serif;
@@ -219,9 +219,9 @@ textarea {
   background-position: center;
 }
 .hero-area .content-wrapper{
-  width:55%;
+  width:65%;
   display: flex;
-  padding-left: 25px;
+  padding-left: 55px;
   height: 300px;
   color: #36402e;
 }
