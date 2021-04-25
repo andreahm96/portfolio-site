@@ -159,13 +159,18 @@ textarea {
      }
  header h1{
     font-size: 14px;
+    padding-bottom: 15px;
+ }
+ .header-divider{
+   border-top: 1px solid #ffffff;
+   width: 100%;
  }
  header nav{
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-     width: 80%;
+     width: 90%;
    }
   header nav ul{
      list-style-type: none;
