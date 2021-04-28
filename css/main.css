@@ -205,26 +205,35 @@ header #site-title{
       align-items: center;
       flex-flow: row wrap;
       width:100%;
-      padding-bottom: 30px;
+      padding:20px 0 30px 0;
     }
-  footer h4,address{
+  footer h4{
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
       width:100%;
       text-align: center;
+      padding: 10px 0 20px 0;
     }
-  footer #contact p{
+  footer #contact address{
+    width:100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: row wrap;
+    padding-left: 30px;
+    margin-block-end: 15px;
+  }
+  footer #contact p{
     width:100%;
     margin-block-start: 4px;
     margin-block-end: 4px;
   }
-
+  #footer-divider{
+    border-top: 1px solid #ffffff;
+    width: 100%;
+  }
   footer .social-icons {
     width: 100%;
     display: flex;
@@ -400,7 +409,7 @@ input[type=button] {
 .additional-title-picture img{
   width: 100%;
 }
-.content-wrapper h4{
+.additional-content h4{
   padding-left: 10px;
 }
 .additional-content{
