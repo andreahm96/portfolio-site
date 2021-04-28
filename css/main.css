@@ -543,49 +543,48 @@ article p{
     font-size: 18px;
   }
 
-  header,footer{
-    padding: 40px 0 60px 0;
-  }
-  header #site-title{
-    width: 60%;
-    display:flex;
-    justify-content: flex-start;
-    flex-flow:nowrap;
-  }
-  header h1{
-     font-size: 21px;
-     padding:10px 0 10px 0;
-  }
-  #header-divider{
-    display: none;
-  }
-  #header-divider-2{
-    border-top: 1px solid #ffffff;
-    width: 100%;
-  }
-  header nav{
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      flex-flow: row wrap;
-      width: 40%;
-    }
-   header nav ul{
-      list-style-type: none;
-      display: inline-flex;
-      padding-inline-start:15px;
-      margin-block-end: 10px;
-      justify-content: space-around;
-      align-items: center;
-      width:60%;
-    }
-
 
 }
 
 @media only screen and (min-width: 1200px) {
 /*********** Desktop styles here **************/
-
+   /***** HEADER/FOOTER ******/
+     header,footer{
+       padding: 40px 0 60px 0;
+     }
+     header #site-title{
+       width: 60%;
+       display:flex;
+       justify-content: flex-start;
+       flex-flow:nowrap;
+     }
+     header h1{
+        font-size: 21px;
+        padding:10px 0 10px 0;
+     }
+     #header-divider{
+       display: none;
+     }
+     #header-divider-2{
+       border-top: 1px solid #ffffff;
+       width: 100%;
+     }
+     header nav{
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         flex-flow: row wrap;
+         width: 40%;
+       }
+      header nav ul{
+         list-style-type: none;
+         display: inline-flex;
+         padding-inline-start:15px;
+         margin-block-end: 10px;
+         justify-content: space-around;
+         align-items: center;
+         width:60%;
+       }
 
 
 @media only screen and (min-width: 35em) {
