@@ -248,8 +248,8 @@ header #site-title{
     align-items: center;
     flex-flow: row wrap;
   }
-  .social-icons i{
-    font-size: 24px;
+  #social-icons i{
+    font-size: 50px;
     margin-bottom: 10px;
   }
 /********************** HERO *************************/
@@ -564,9 +564,13 @@ article p{
   nav p{
     font-size: 21px;
   }
+  footer #social-icons {
+    width: 60%;
+  }
+  footer #social-icons p {
+    width:30%;
+  }
 
-
-}
 
 @media only screen and (min-width: 1200px) {
 /*********** Desktop styles here **************/
