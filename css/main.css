@@ -234,8 +234,8 @@ header #site-title{
     border-top: 1px solid #ffffff;
     width: 100%;
   }
-  footer .social-icons {
-    width: 100%;
+  footer #social-icons {
+    width: 75%;
     display: flex;
     justify-content:space-around;
     align-items: center;
