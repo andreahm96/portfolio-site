@@ -548,7 +548,7 @@ article p{
     font-size: 70px;
   }
   h4{
-    font-size: 21px;
+    font-size: 25px;
   }
   h5{
     font-size: 30px;
@@ -590,9 +590,27 @@ article p{
     text-align: left;
   }
 /********** ABOUT **********/
+ .about{
+   padding: 50px 0 50px 0;
+   height: 600px
+ }
+  .about p{
+    font-size: 21px;
+  }
+  input[type=button] {
+    border-radius: 45px;
+    padding: 30px 40px;
+    font-size: 21px;
+  }
 
-
-
+/********* SKILLS *********/
+  .skills .content-wrapper {
+    width:90%;
+  }
+  .skills article{
+    width: 40%;
+    justify-content: space-around;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
