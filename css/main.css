@@ -542,7 +542,7 @@ article p{
     font-size: 50px;
   }
   h2{
-    font-size: 70px;
+    font-size: 80px;
   }
   h3{
     font-size: 70px;
@@ -570,7 +570,30 @@ article p{
   footer #social-icons p {
     width:30%;
   }
+/******** HERO AREA *********/
+  .hero-area .content-wrapper{
+    width:40%;
+    padding-left: 70px;
+    height: 450px;
+  }
+/******** WELCOME **********/
+  .welcome{
+    padding: 100px 0 100px 0;
+  }
+  .welcome .content-wrapper{
+    width:400px;
+  }
+  .welcome h2{
+    width:85%;
+    display: flex;
+    align-content: flex-start;
+    text-align: left;
+  }
+/********** ABOUT **********/
 
+
+
+}
 
 @media only screen and (min-width: 1200px) {
 /*********** Desktop styles here **************/
