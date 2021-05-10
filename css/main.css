@@ -705,8 +705,15 @@ article p{
       width:40%;
       padding-left: 70px;
       height: 625px;
+      }
+    /******** WELCOME ********/
+    .welcome .content-wrapper{
+      width:590px;
     }
-
+    .welcome h2{
+      width:75%;
+    }
+    
   }
 
 
