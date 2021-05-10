@@ -621,6 +621,20 @@ article p{
 
 @media only screen and (min-width: 1200px) {
 /*********** Desktop styles here **************/
+  /****** general styles ******/
+  h1{
+    font-size: 80px;
+  }
+  span{
+    font-size: 80px;
+  }
+  h2{}
+
+
+
+
+
+
    /***** HEADER/FOOTER ******/
      header,footer{
        padding: 15px 0 50px 0;
@@ -672,6 +686,12 @@ article p{
         align-items: center;
         flex-flow: column wrap;
       }
+    /********* HERO *********/
+    .hero-area .content-wrapper{
+      width:40%;
+      padding-left: 70px;
+      height: 625px;
+    }
 
   }
 
