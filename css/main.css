@@ -731,6 +731,11 @@ article p{
       flex-flow: column wrap;
       font-size: 35px;
     }
+  /********* additional ***************/
+    .additional-content .content-wrapper{
+      padding: 150px 0;
+    }
+
   }
 
 
