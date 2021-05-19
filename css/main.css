@@ -448,7 +448,9 @@ figure{
 article p{
   width:70%;
 }
-/************** WORK SECTION 1 *********************/
+/************** WORK SECTION *********************/
+
+/** title **/
 .title {
   width: 100%;
   margin: 0;
@@ -478,6 +480,32 @@ article p{
 .title-picture img{
   width: 100%;
 }
+/**developer examples**/
+#work-section-1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+#work-section-1 article{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.example-picture,.example-description{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.example-picture img{
+  width: 100%;
+}
+
 
 /* ==========================================================================
    Helper classes
