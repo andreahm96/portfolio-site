@@ -480,13 +480,16 @@ article p{
 .title-picture img{
   width: 100%;
 }
-/**developer examples**/
+/** work examples**/
 #work-section-1, #work-section-2{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+#work-section-1 .content-wrapper, #work-section-2 .content-wrapper{
+  padding: 30px 0 40px 0;
 }
 #work-section-1 article{
   width: 100%;
@@ -510,12 +513,13 @@ article p{
 .example-description h4,.example-description p{
   text-align: center;
 }
+#work-section-1 input[type=button] {
+  width:100%;
+  background-color: #9B7138;
+  color: #ffffff;
+}
 #work-section-2 .example-picture img{
   padding: 15px 0;
-}
-#work-section-1 .content-wrapper, #work-section-2 .content-wrapper{
-  padding: 30px 0 40px 0;
-}
 
 
 
