@@ -467,9 +467,9 @@ article p{
   align-items: center;
 }
 .title-wrapper h1, .title-wrapper span{
-  font-size: 23px;
+  font-size: 18px;
   color: #ffffff;
-  width:170px;
+  width:130px;
 }
 .title-picture{
   width:50%;
@@ -481,7 +481,7 @@ article p{
   width: 100%;
 }
 /**developer examples**/
-#work-section-1{
+#work-section-1, #work-section-2{
   width: 100%;
   display: flex;
   justify-content: center;
