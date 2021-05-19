@@ -116,11 +116,14 @@ textarea {
     margin-block-start: 0em;
     margin-block-end: 0;
   }
-  h3{
+  .about h3 {
     font-size: 50px;
     margin-block-start: 0em;
     margin-block-end: 0em;
     letter-spacing: -3px;
+  }
+  h3{
+
   }
   h4{
     margin-block-start: .25em;
@@ -445,8 +448,36 @@ figure{
 article p{
   width:70%;
 }
-
-
+/************** WORK SECTION 1 *********************/
+.title {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #36402e;
+}
+.title .title-wrapper{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-wrapper h1, .title-wrapper span{
+  font-size: 23px;
+  color: #ffffff;
+  width:170px;
+}
+.title-picture{
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-picture img{
+  width: 100%;
+}
 
 /* ==========================================================================
    Helper classes
