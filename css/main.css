@@ -494,6 +494,7 @@ article p{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 15px 0;
 }
 .example-picture,.example-description{
   width: 100%;
@@ -501,9 +502,13 @@ article p{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding:15px 0;
 }
 .example-picture img{
   width: 100%;
+}
+.example-description h3{
+  text-transform: capitalize;
 }
 
 
