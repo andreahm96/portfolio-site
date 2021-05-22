@@ -510,8 +510,10 @@ article p{
 .example-picture img{
   width: 100%;
 }
-.example-description h4,.example-description p{
+.example-description h3,.example-description h4,.example-description p{
   text-align: center;
+  width: 100%;
+  padding: 0 15px;
 }
 #work-section-1 input[type=button] {
   width:100%;
