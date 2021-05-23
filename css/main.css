@@ -845,6 +845,34 @@ article p{
     .additional-content .content-wrapper{
       padding: 150px 0;
     }
+ /**************  WORK **************/
+   #work-section-1 article{
+     justify-content: space-between;
+     padding: 25px;
+   }
+   #work-section-1 .example-picture{
+      width: 45%;
+      justify-content:space-between;
+      }
+    #work-section-1 .example-description{
+      width: 45%;
+      justify-content: space-between;
+      }
+    .example-description p{
+      font-size: 18px;
+      }
+    #work-section-2 .example-picture{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    #work-section-2 .example-picture img{
+      width:40%;
+      display: flex;
+      justify-content: center;
+      padding:50px;
+    }
+
 
   }
 
