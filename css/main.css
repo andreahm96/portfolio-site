@@ -695,6 +695,24 @@ article p{
   width:225px;
   margin-left: 35px;
 }
+/**************  WORK **************/
+
+.title-wrapper h1, .title-wrapper span{
+  font-size: 35px;
+  width:225px;
+}
+.example-description, .example-picture{
+  width:80%;
+}
+.example-description h3{
+  font-size: 25px;
+  width:100%;
+}
+#work-section-1 h4, #work-section-2 h4{
+  font-size: 21px;
+  width:50%;
+}
+
 
 }
 
