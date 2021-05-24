@@ -853,10 +853,12 @@ article p{
    #work-section-1 .example-picture{
       width: 45%;
       justify-content:space-between;
+      flex-direction: row;
       }
     #work-section-1 .example-description{
       width: 45%;
       justify-content: space-between;
+      flex-direction: row;
       }
     .example-description p{
       font-size: 18px;
