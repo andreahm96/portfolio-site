@@ -846,9 +846,16 @@ article p{
       padding: 150px 0;
     }
  /**************  WORK **************/
+
    #work-section-1 article{
      justify-content: space-between;
      padding: 25px;
+     flex-flow: row-reverse wrap;
+   }
+   #work-section-1 article.reverse{
+     justify-content: space-between;
+     padding: 25px;
+     flex-flow: row wrap;
    }
    #work-section-1 .example-picture{
       width: 45%;
