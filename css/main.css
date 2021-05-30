@@ -141,6 +141,10 @@ textarea {
     font-size: 14px;
     font-weight: bold;
   }
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
   span{
     font-size: 40px;
     font-weight: 700;
